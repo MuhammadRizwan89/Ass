@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assets/images/bg-resturant.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+/* header wordk */
+
+.header h2{
+    text-align: center; 
+}
+.header img{
+    align-items: center;
+}
+
+.card-list h1{
+   font-size: 3em;
+   font-weight: 600;
+   text-align: center;
+   margin-bottom:3rem;
+}
+
+
+.card-image{
+    display:inline
+}
+.card_body>li{
+    display:inline;
+}
+.main-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main-row .main_card {
+    background: #fff;
+    flex: 0 0 23%;
+    max-width: 23%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgb(36 24 97 / 93%) 0px 5px 15px;
+}
+
+.image_holder {
+    height: 200px;
+    width: 100%;
+}
+
+.image_holder img {
+    height: 100%;
+    width: 100%;
+}
+
+.card_body {
+    padding: 1rem;
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #071735e6;
+    z-index: -1;
+}
+
+.card_body h3 {
+    color: #000;
+}
+
+.card_body ul {
+    list-style: none;
+    padding-left: 0;
+    column-count: 2;
+}
+.container {
+    margin: 2rem 3rem;
+}
+.header img:first-child {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+}
+.header img:nth-of-type(2n) {position: absolute;top: 15px;left: 10px;height: 120px;width: 120px;border-radius: 50%;}
+
